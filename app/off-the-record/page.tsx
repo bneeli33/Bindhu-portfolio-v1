@@ -235,15 +235,10 @@ export default function OffTheRecord() {
 
   return (
     <div className="relative min-h-screen">
-      {/* Background canvas (fixed, behind all content) */}
       <div className="fixed inset-0 -z-10 pointer-events-none">
-        {/* Base gradient (light & dark) */}
         <div className="absolute inset-0 bg-gradient-to-br from-white via-zinc-50 to-slate-100 dark:from-gray-950 dark:via-gray-900 dark:to-gray-800" />
-
-        {/* Radial accent to make it more attractive */}
         <div className="absolute inset-0 opacity-60 dark:opacity-40 bg-[radial-gradient(1200px_600px_at_20%_10%,rgba(168,85,247,0.10),transparent),radial-gradient(900px_500px_at_80%_90%,rgba(236,72,153,0.10),transparent)]" />
 
-        {/* Floating icons layer (soft, blurred, always visible while scrolling) */}
         <div className="absolute inset-0 overflow-hidden">
           <motion.div
             animate={{ x: [0, 100, 0], y: [0, -80, 0], rotate: [0, 360] }}
