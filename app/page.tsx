@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Education from "@/components/education";
@@ -12,11 +13,17 @@ export default function Home() {
       <Intro />
       <div className="flex flex-col items-center px-4">
         <SectionDivider />
-        <Projects />
-        <Skills />
         <Experience />
+        <Skills />
+        <Projects />
         <Education />
         <Contact />
+        <Link 
+          href="/off-the-record"
+          className="mb-8 px-6 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 animate-[gradient_4s_ease_infinite] hover:scale-110 transition-all shadow-lg hover:shadow-purple-500/50"
+        >
+          Off the Record →
+        </Link>
       </div>
     </main>
   );

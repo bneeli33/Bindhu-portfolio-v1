@@ -32,3 +32,52 @@ html.dark {
   width: 100% !important;
   height: 100% !important;
 }
+
+body[data-modal-open='true'] {
+  overflow: hidden;
+}
+
+body[data-modal-open='true'] nav,
+body[data-modal-open='true'] header,
+body[data-modal-open='true'] nav::before,
+body[data-modal-open='true'] nav::after,
+body[data-modal-open='true'] header::before,
+body[data-modal-open='true'] header::after {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-[gradient_4s_ease_infinite] {
+  background-size: 200% 200%;
+  animation: gradient 4s ease infinite;
+}
+
+/* ✨ Sparkle Effect */
+@keyframes sparkle {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.25); }
+}
+
+.sparkle-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.sparkle-button::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, transparent 60%);
+  animation: sparkle 2s infinite ease-in-out;
+  pointer-events: none;
+}

@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import githubdp from "@/public/githubdp.jpg";
+import bindhu from "@/public/bindhu.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src={githubdp}
+              src={bindhu}
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -41,20 +41,6 @@ export default function Intro() {
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
 
@@ -63,9 +49,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> at{" "}
-        <a href="https://www.humanforce.com" className="font-bold underline" target='_blank' style={{ textUnderlineOffset: '4px' }}>Humanforce</a> in the platform team. I build and maintain full-stack systems from modern frontends to event-driven backends and infrastructure — with a focus on performance, scalability, and developer experience.
+        <span className="font-bold">Hello, I'm Bindhu.</span> I'm currently working as a{" "}
+        <span className="font-bold">Software Engineer</span> at{" "}
+        <a href="https://hiivehealth.com/" className="font-bold underline" target='_blank' style={{ textUnderlineOffset: '4px' }}>Hiive Health</a>. I build web applications using React, Next.js, TypeScript, JavaScript, Python/Django, and GraphQL. My work focuses on designing user-friendly interfaces, improving clinical workflows, and delivering secure, reliable healthcare software.
       </motion.h1>
 
       <motion.div
@@ -76,17 +62,26 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ben04rogers"
-          target="_blank"
-        >
-          GitHub <FaGithub className="opacity-70" />
-        </a>
+        <div className="relative group inline-block">
+          <a
+            className="bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none 
+                      focus:scale-110 hover:scale-105 active:scale-95 transition cursor-pointer 
+                      borderBlack text-gray-950"
+            href="https://github.com/bneeli33"
+            target="_blank"
+          >
+            GitHub <FaGithub className="opacity-70" />
+          </a>
+          <span className="absolute left-1/2 -translate-x-1/2 mt-2 whitespace-nowrap 
+                            rounded-md bg-black text-white text-xs px-2 py-1 opacity-0 
+                            group-hover:opacity-100 transition-all duration-200 pointer-events-none">
+            Mostly worked on Company private GIT repositories
+          </span>
+        </div>
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/ben-rogers-dev/"
+          href="https://www.linkedin.com/in/bindhuneeli/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>
