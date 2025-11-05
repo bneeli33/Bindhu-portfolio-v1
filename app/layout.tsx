@@ -5,6 +5,8 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
+
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -30,9 +32,9 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
-
             <Toaster position="top-right" />
             <ThemeSwitch />
+            <Analytics />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
