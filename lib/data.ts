@@ -1,10 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import assetTradingImg from "@/public/asset-trading.jpg";
 import HiiveHealthProject from "@/public/HiiveHealthProject.png";
 import attLogo from "@/public/attLogo.png";
 import ciscoLogo from "@/public/ciscoLogo.png";
-import cyientLogo from "@/public/cyientLogo.png";
 import hiiveHealthLogo from "@/public/hiiveHealthLogo.png";
 import onescreen_aiLog from "@/public/onescreen_aiLogo.png";
 import pnc_bankLogo from "@/public/pnc_bankLogo.png";
@@ -63,23 +61,23 @@ import cs15 from "@/public/cs15.png";
 import cs16 from "@/public/cs16.png";
 // import cs17 from "@/public/cs17.png";
 import cs18 from "@/public/cs18.png";
-import at1 from "@/public/at1.png"
-import at2 from "@/public/at2.png"
-import at3 from "@/public/at3.png"
-import at4 from "@/public/at4.png"
-import at5 from "@/public/at5.png"
-import at6 from "@/public/at6.png"
-import ks1 from "@/public/ks1.png"
-import ks2 from "@/public/ks2.png"
-import ks3 from "@/public/ks3.png"
-import ks4 from "@/public/ks4.png"
-import ks5 from "@/public/ks5.png"
-import ks6 from "@/public/ks6.png"
-import ks7 from "@/public/ks7.png"
-import cy1 from "@/public/cy1.png"
-import cy2 from "@/public/cy2.png"
-import cy3 from "@/public/cy3.png"
-import cy4 from "@/public/cy4.png"
+import at1 from "@/public/at1.png";
+import at2 from "@/public/at2.png";
+import at3 from "@/public/at3.png";
+import at4 from "@/public/at4.png";
+import at5 from "@/public/at5.png";
+import at6 from "@/public/at6.png";
+import ks1 from "@/public/ks1.png";
+import ks2 from "@/public/ks2.png";
+import ks3 from "@/public/ks3.png";
+import ks4 from "@/public/ks4.png";
+import ks5 from "@/public/ks5.png";
+import ks6 from "@/public/ks6.png";
+import ks7 from "@/public/ks7.png";
+import cy1 from "@/public/cy1.png";
+import cy2 from "@/public/cy2.png";
+import cy3 from "@/public/cy3.png";
+import cy4 from "@/public/cy4.png";
 
 export const links = [
   {
@@ -98,7 +96,7 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  
+
   {
     name: "Education",
     hash: "#education",
@@ -117,7 +115,7 @@ export const experiencesData = [
       "Built clinical workflows for medication ordering and telehealth using React, Next.js, TypeScript, GraphQL, and Python/Django with HIPAA-compliant data handling.",
     icon: React.createElement(CgWorkAlt),
     date: "April 2024 - Present",
-    logo: hiiveHealthLogo
+    logo: hiiveHealthLogo,
   },
   {
     title: "Sr. React Developer",
@@ -126,7 +124,7 @@ export const experiencesData = [
       "Developed pharmacy benefit workflows and medication management UIs, improving performance and RxNorm/NDC search accuracy using React and GraphQL.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - March 2024",
-    logo: primeTherapeuticsLogo
+    logo: primeTherapeuticsLogo,
   },
   {
     title: "Full Stack (MERN) Developer",
@@ -135,7 +133,7 @@ export const experiencesData = [
       "Built scalable marketing platform dashboards with React, Redux, Node.js, and MongoDB, improving usability and component reusability.",
     icon: React.createElement(CgWorkAlt),
     date: "April 2022 - April 2023",
-    logo: onescreen_aiLog
+    logo: onescreen_aiLog,
   },
   {
     title: "Sr. Software Developer",
@@ -144,7 +142,7 @@ export const experiencesData = [
       "Modernized enterprise UI systems using React and TypeScript, implementing large-scale AG-Grid/Kendo components for data-heavy workflows.",
     icon: React.createElement(CgWorkAlt),
     date: "February 2021 - April 2022",
-    logo: trilliantLogo
+    logo: trilliantLogo,
   },
   {
     title: "Full Stack Developer",
@@ -153,7 +151,7 @@ export const experiencesData = [
       "Developed secure financial dashboards using React and Angular, integrating REST APIs and enhancing user flow across banking applications.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2020 - February 2021",
-    logo: pnc_bankLogo
+    logo: pnc_bankLogo,
   },
   {
     title: "Front End Developer",
@@ -162,7 +160,7 @@ export const experiencesData = [
       "Built clinical applications supporting patient encounters, medication records, and ICD-10 workflows for long-term care facilities.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2018 - April 2020",
-    logo: pruitthealthLogo
+    logo: pruitthealthLogo,
   },
   {
     title: "UI Developer",
@@ -171,7 +169,7 @@ export const experiencesData = [
       "Developed Angular and TypeScript UI components to improve dashboard interactivity and internal tool efficiency.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2017 - February 2018",
-    logo: ciscoLogo
+    logo: ciscoLogo,
   },
   {
     title: "Front End Developer",
@@ -180,7 +178,7 @@ export const experiencesData = [
       "Built responsive UI pages and reusable components using JavaScript, jQuery, HTML5, and CSS3 for large-scale telecom applications.",
     icon: React.createElement(CgWorkAlt),
     date: "August 2016 - February 2017",
-    logo: attLogo
+    logo: attLogo,
   },
   {
     title: "Front End Developer Intern",
@@ -189,16 +187,7 @@ export const experiencesData = [
       "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
     icon: React.createElement(CgWorkAlt),
     date: "January 2016 - May 2016",
-    logo: kronsysLogo
-  },
-  {
-    title: "Jr. Front End Developer",
-    location: "Cyient",
-    description:
-      "Built front-end UI screens and reusable layout components using HTML, CSS, and JavaScript for enterprise applications.",
-    icon: React.createElement(CgWorkAlt),
-    date: "September 2021 - February 2022",
-    logo: cyientLogo
+    logo: kronsysLogo,
   },
 ] as const;
 
@@ -213,10 +202,10 @@ export const projectsData = [
       "vscode-icons:file-type-next",
       "logos:typescript-icon",
       "logos:graphql",
-      "logos:django"
+      "logos:django",
     ],
     imageUrl: HiiveHealthProject,
-    images: [hh3, hh4, hh5, hh6, hh7, hh8, hh9, hh10, hh11, hh12, hh1, hh2]
+    images: [hh3, hh4, hh5, hh6, hh7, hh8, hh9, hh10, hh11, hh12, hh1, hh2],
   },
   {
     title: "Sr. React Developer",
@@ -227,46 +216,86 @@ export const projectsData = [
       "logos:react",
       "logos:typescript-icon",
       "logos:redux",
-      "logos:graphql"
+      "logos:graphql",
     ],
     imageUrl: pt1,
-    images: [pt1, pt2, pt3, pt4, pt5, pt6, pt7]
+    images: [pt1, pt2, pt3, pt4, pt5, pt6, pt7],
   },
   {
     title: "Full Stack (MERN) Developer",
     description:
       "Built scalable dashboards and reusable components across React/Redux + Node/Express + MongoDB; delivered pixel-perfect UIs and improved developer velocity.",
     tags: ["React", "Redux", "Node.js", "Express.js", "MongoDB"],
-    icons: ["logos:react", "logos:redux", "logos:nodejs-icon", "logos:express", "logos:mongodb-icon"],
+    icons: [
+      "logos:react",
+      "logos:redux",
+      "logos:nodejs-icon",
+      "logos:express",
+      "logos:mongodb-icon",
+    ],
     imageUrl: os1,
-    images: [os1, os2, os3, os4, os5, os6, os7, os8]
+    images: [os1, os2, os3, os4, os5, os6, os7, os8],
   },
   {
     title: "Sr. Software Developer",
     description:
       "Modernized large SPA with TypeScript and advanced data tables (AG-Grid/Kendo); implemented filtering/sorting on 100K+ records and migrated legacy JS to TS.",
     tags: ["React", "TypeScript", "AG-Grid", "Kendo React", "Redux"],
-    icons: ["logos:react", "logos:typescript-icon", "simple-icons:aggrid", "simple-icons:kendo-react", "logos:redux"],
+    icons: [
+      "logos:react",
+      "logos:typescript-icon",
+      "simple-icons:aggrid",
+      "simple-icons:kendo-react",
+      "logos:redux",
+    ],
     imageUrl: tn1,
-    images: [tn1, tn2]
+    images: [tn1, tn2],
   },
   {
     title: "Full Stack Developer",
     description:
       "Delivered Angular/React features for financial web apps; integrated REST APIs and strengthened performance and security across multiple releases.",
     tags: ["Angular", "React", "TypeScript", "REST APIs"],
-    icons: ["logos:angular-icon", "logos:react", "logos:typescript-icon", "material-symbols:api-outline"],
+    icons: [
+      "logos:angular-icon",
+      "logos:react",
+      "logos:typescript-icon",
+      "material-symbols:api-outline",
+    ],
     imageUrl: pnc1,
-    images: [pnc1, pnc2, pnc3, pnc4]
+    images: [pnc1, pnc2, pnc3, pnc4],
   },
   {
     title: "UI Developer",
     description:
       "Developed reusable Angular components with RxJS and Bootstrap to improve internal tool efficiency and responsiveness.",
     tags: ["Angular", "TypeScript", "RxJS", "Bootstrap"],
-    icons: ["logos:angular-icon", "logos:typescript-icon", "logos:rxjs", "logos:bootstrap"],
+    icons: [
+      "logos:angular-icon",
+      "logos:typescript-icon",
+      "logos:rxjs",
+      "logos:bootstrap",
+    ],
     imageUrl: cs1,
-    images: [cs1, cs2, cs3, cs4, cs5, cs6, cs7, cs8, cs9, cs10, cs11, cs12, cs13, cs14, cs15, cs16, cs18]
+    images: [
+      cs1,
+      cs2,
+      cs3,
+      cs4,
+      cs5,
+      cs6,
+      cs7,
+      cs8,
+      cs9,
+      cs10,
+      cs11,
+      cs12,
+      cs13,
+      cs14,
+      cs15,
+      cs16,
+      cs18,
+    ],
   },
   {
     title: "Front End Developer",
@@ -275,7 +304,7 @@ export const projectsData = [
     tags: ["HTML5", "CSS3", "JavaScript", "jQuery"],
     icons: ["logos:html-5", "logos:css-3", "logos:javascript", "logos:jquery"],
     imageUrl: at1,
-    images: [at1, at2, at3, at4, at5, at6]
+    images: [at1, at2, at3, at4, at5, at6],
   },
   {
     title: "Front End Developer",
@@ -284,17 +313,17 @@ export const projectsData = [
     tags: ["HTML", "CSS/SCSS", "JavaScript", "Shopify"],
     icons: ["logos:html-5", "logos:sass", "logos:javascript"],
     imageUrl: ks1,
-    images: [ks1, ks2, ks3, ks4, ks5, ks6, ks7]
+    images: [ks1, ks2, ks3, ks4, ks5, ks6, ks7],
   },
   {
-    title: "Jr. Front End Developer",
+    title: "Freelancer",
     description:
       "Built front-end UI screens and reusable layout components using HTML, CSS, and JavaScript for enterprise applications.",
     tags: ["HTML", "CSS", "JavaScript"],
     icons: ["logos:html-5", "logos:css-3", "logos:javascript"],
     imageUrl: cy1,
-    images: [cy1, cy2, cy3, cy4]
-  }
+    images: [cy1, cy2, cy3, cy4],
+  },
 ] as const;
 
 export const skillsData = [
@@ -321,7 +350,6 @@ export const skillsData = [
       { name: "jQuery", icon: "logos:jquery" },
       { name: "Single Page Applications" },
       { name: "Responsive Design" },
-      
     ],
   },
   {
@@ -337,7 +365,7 @@ export const skillsData = [
       { name: "GraphQL", icon: "logos:graphql" },
       { name: "PostgreSQL", icon: "logos:postgresql" },
       { name: "MySQL", icon: "logos:mysql" },
-      { name: "MongoDB", icon: "logos:mongodb-icon" }
+      { name: "MongoDB", icon: "logos:mongodb-icon" },
     ],
   },
   {
@@ -351,7 +379,7 @@ export const skillsData = [
       { name: "Bitbucket Pipelines", icon: "simple-icons:bitbucket" },
       { name: "Linux", icon: "logos:linux-tux" },
       { name: "CI/CD" },
-      { name: "Infrastructure as Code" }
+      { name: "Infrastructure as Code" },
     ],
   },
   {
@@ -379,7 +407,7 @@ export const skillsData = [
       { name: "Object Oriented Programming (OOP)" },
       { name: "Test Driven Development (TDD)" },
       { name: "Database design" },
-      { name: "Event‑driven architecture" }
+      { name: "Event‑driven architecture" },
     ],
   },
   {
@@ -395,7 +423,7 @@ export const skillsData = [
       { name: "React Hook Form", icon: "simple-icons:reacthookform" },
       { name: "Sentry", icon: "logos:sentry-icon" },
       { name: "New Relic", icon: "logos:new-relic-icon" },
-      { name: "Grafana", icon: "logos:grafana" }
+      { name: "Grafana", icon: "logos:grafana" },
     ],
   },
 ];
