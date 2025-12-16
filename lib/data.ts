@@ -1,6 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
+import symbolsLogo from "@/public/symbols.png";
 import HiiveHealthProject from "@/public/HiiveHealthProject.png";
+import symbolsProject from "@/public/sym1.png";
 import attLogo from "@/public/attLogo.png";
 import ciscoLogo from "@/public/ciscoLogo.png";
 import hiiveHealthLogo from "@/public/hiiveHealthLogo.png";
@@ -10,6 +12,13 @@ import primeTherapeuticsLogo from "@/public/primeTherapeuticsLogo.png";
 import pruitthealthLogo from "@/public/pruitthealthLogo.png";
 import trilliantLogo from "@/public/trilliantLogo.png";
 import kronsysLogo from "@/public/kronsysLogo.png";
+import sym1 from "@/public/sym1.png";
+import sym2 from "@/public/sym2.png";
+import sym3 from "@/public/sym3.png";
+import sym4 from "@/public/sym4.png";
+import sym5 from "@/public/sym5.png";
+import sym6 from "@/public/sym6.png";
+import sym7 from "@/public/sym7.png";
 import hh1 from "@/public/hh1.png";
 import hh2 from "@/public/hh2.png";
 import hh3 from "@/public/hh3.png";
@@ -109,12 +118,21 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Sr. Software Developer",
+    location: "Symbols.app",
+    description:
+      "Built design-system components and developer tooling at Symbols.app, focusing on reusable UI primitives, accessibility, and token-based styling workflows.",
+    icon: React.createElement(CgWorkAlt),
+    date: "October 2025 - Present",
+    logo: symbolsLogo,
+  },
+  {
     title: "Sr. Software Engineer",
     location: "Hiive Health",
     description:
       "Built clinical workflows for medication ordering and telehealth using React, Next.js, TypeScript, GraphQL, and Python/Django with HIPAA-compliant data handling.",
     icon: React.createElement(CgWorkAlt),
-    date: "April 2024 - Present",
+    date: "April 2024 - October 2025",
     logo: hiiveHealthLogo,
   },
   {
@@ -192,6 +210,32 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Sr. Software Developer",
+    description:
+      "Built design-system UI components and developer tooling for Symbols.app, including token-driven styling, reusable UI primitives, accessibility improvements, and a no-code CSS selectors editor to streamline design-to-code workflows.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Design Systems",
+      "Component Library",
+      "Accessibility",
+      "Developer Tooling",
+      "Design Tokens",
+      "CSS Selectors"
+    ],
+    icons: [
+      "logos:react",
+      "logos:typescript-icon",
+      "logos:javascript",
+      "logos:nodejs-icon",
+      "mdi:palette",
+      "mdi:accessibility",
+      "mdi:tools"
+    ],
+    imageUrl: symbolsProject,
+    images: [sym1, sym2, sym3, sym4, sym5, sym6, sym7],
+  },
   {
     title: "Sr. Software Engineer",
     description:

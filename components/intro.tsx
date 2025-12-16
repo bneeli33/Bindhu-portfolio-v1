@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
-import bindhu from "@/public/bindhu.png";
+import bindhuNeeli from "@/public/bindhuNeeli.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,26 +32,48 @@ export default function Intro() {
             }}
           >
             <Image
-              src={bindhu}
-              alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              src={bindhuNeeli}
+              alt="Bindhu portrait"
+              width={240}
+              height={240}
+              quality={95}
+              priority
+              className="h-36 w-36 rounded-full object-cover object-top border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
         </div>
       </div>
-
+      <div className="flex items-center justify-center">
+        <div className="relative">
+          <motion.h4
+            className=" mt-4 px-0 sm:px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl text-white max-w-[50rem] mx-auto"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
+            <div className="mt-3 flex justify-center">
+              <div className="relative inline-flex text-sm sm:text-base font-bold px-5 py-2 whitespace-nowrap 
+            bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 
+            text-white shadow-lg rounded-full tracking-wide overflow-hidden">
+                #OpenToWork
+                <span
+                  className="absolute inset-0 -translate-x-full animate-[shine_3s_ease-in-out_infinite] 
+               bg-gradient-to-r from-transparent via-white/40 to-transparent"
+                />
+                <span className="absolute -top-1 left-3 text-white/90 animate-[sparkle_2.5s_ease-in-out_infinite]">✨</span>
+                <span className="absolute -bottom-1 right-3 text-white/80 animate-[sparkle_3s_ease-in-out_infinite]">✨</span>
+              </div>
+            </div>
+          </motion.h4>
+        </div>
+      </div>    
       <motion.h1
         className="mb-10 mt-4 px-0 sm:px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl text-white max-w-[50rem] mx-auto"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Bindhu.</span> I'm currently working as a{" "}
-        <span className="font-bold">Software Engineer</span> at{" "}
-        <a href="https://hiivehealth.com/" className="font-bold underline" target='_blank' style={{ textUnderlineOffset: '4px' }}>Hiive Health</a>. I build web applications using React, Next.js, TypeScript, JavaScript, Python/Django, and GraphQL. My work focuses on designing user-friendly interfaces, improving clinical workflows, and delivering secure, reliable healthcare software.
+        <span className="font-bold">Hello, I'm Bindhu Neeli.</span> I'm currently working as a{" "}
+        <span className="font-bold">Software Developer</span> at{" "}
+        <a href="https://symbols.app/" className="font-bold underline" target='_blank' style={{ textUnderlineOffset: '4px' }}>Symbols</a>. I build design-system tooling and reusable UI components in React and TypeScript, including no-code styling and CSS selector editors.
       </motion.h1>
 
       <motion.div
@@ -88,6 +110,19 @@ export default function Intro() {
           <BsLinkedin className="opacity-70" />
         </a>
       </motion.div>
+
+      <style jsx global>{`
+        @keyframes shine {
+          0% { transform: translateX(-100%); }
+          40% { transform: translateX(100%); }
+          100% { transform: translateX(100%); }
+        }
+
+        @keyframes sparkle {
+          0%, 100% { opacity: 0; transform: scale(0.8); }
+          50% { opacity: 1; transform: scale(1.2); }
+        }
+      `}</style>
     </section>
   );
 }

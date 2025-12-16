@@ -103,29 +103,29 @@ const conversations = [
     ),
     image: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDMyNWhicnZ2bzhiMHVqdWw3eWYxb3IzdW5kY2tmazZ1cjl2ajl5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4LwTZa7jZZQxCWfaAD/giphy.gif"
   },
-  {
-    question: "So here's the true story of my life.",
-    answer: (
-      <>
-        On a normal day, I am a <strong>perfectly functioning developer</strong>. I can debug, build features, fix my own messes, and occasionally feel very powerful while deleting 300 lines of code and replacing it with 7.
-        <br />
-        But the moment a coding interview starts—my brain respectfully clocks out. Like, thank you so much for this opportunity, but I am now a <u className="underline decoration-red-500 underline-offset-2">potato</u>.
-        <br />
-        If you give me the same exact question at home, I'll solve it before the deadline. But in an interview? Suddenly I've never seen a loop in my life. <strong>What is JavaScript?</strong> Who am I? Who are you? Why are we here?
-        <br />
-        It's like when perfectly healthy patients go to the doctor and suddenly their blood pressure is like: <em>"SURPRISE! Let's be dramatic today!"</em>
-        <br />
-        There's a name for that: <strong>White Coat Syndrome</strong>. So I have the developer version of that: <span className="text-pink-600 font-semibold">White Board Syndrome (a.k.a. Coding Blood Pressure)</span>.
-        <br />
-        <u className="underline decoration-red-500 underline-offset-2">If anyone has breathing techniques, affirmations, dark magic, or snacks that fix this, please share. I am open to healing.</u>
-        <br />
-        😌 But can I handle pressure at work? <strong className="text-emerald-600">Yes, absolutely.</strong> Because at work: I know the system, know the expectations, and know the people aren't silently judging my thought process in real-time like a talent show audition.
-        <br />
-        Give me a real project, a cup of coffee, and some space to think? <strong>I will deliver.</strong> <span className="text-emerald-600 font-semibold">Under pressure, even better.</span> Just, maybe don't watch me type while I do it. My neurons get shy.
-      </>
-    ),
-    image: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGc5MW02Z3RxeXg5MmZneGF5Z213N28yYTZnZGloYzR2M3ZkeGxlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZIG63RdogLgqI/giphy.gif"
-  },
+  // {
+  //   question: "So here's the true story of my life.",
+  //   answer: (
+  //     <>
+  //       On a normal day, I am a <strong>perfectly functioning developer</strong>. I can debug, build features, fix my own messes, and occasionally feel very powerful while deleting 300 lines of code and replacing it with 7.
+  //       <br />
+  //       But the moment a coding interview starts—my brain respectfully clocks out. Like, thank you so much for this opportunity, but I am now a <u className="underline decoration-red-500 underline-offset-2">potato</u>.
+  //       <br />
+  //       If you give me the same exact question at home, I'll solve it before the deadline. But in an interview? Suddenly I've never seen a loop in my life. <strong>What is JavaScript?</strong> Who am I? Who are you? Why are we here?
+  //       <br />
+  //       It's like when perfectly healthy patients go to the doctor and suddenly their blood pressure is like: <em>"SURPRISE! Let's be dramatic today!"</em>
+  //       <br />
+  //       There's a name for that: <strong>White Coat Syndrome</strong>. So I have the developer version of that: <span className="text-pink-600 font-semibold">White Board Syndrome (a.k.a. Coding Blood Pressure)</span>.
+  //       <br />
+  //       <u className="underline decoration-red-500 underline-offset-2">If anyone has breathing techniques, affirmations, dark magic, or snacks that fix this, please share. I am open to healing.</u>
+  //       <br />
+  //       😌 But can I handle pressure at work? <strong className="text-emerald-600">Yes, absolutely.</strong> Because at work: I know the system, know the expectations, and know the people aren't silently judging my thought process in real-time like a talent show audition.
+  //       <br />
+  //       Give me a real project, a cup of coffee, and some space to think? <strong>I will deliver.</strong> <span className="text-emerald-600 font-semibold">Under pressure, even better.</span> Just, maybe don't watch me type while I do it. My neurons get shy.
+  //     </>
+  //   ),
+  //   image: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGc5MW02Z3RxeXg5MmZneGF5Z213N28yYTZnZGloYzR2M3ZkeGxlZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZIG63RdogLgqI/giphy.gif"
+  // },
   {
     question: "Work authorization?",
     answer: (
@@ -143,6 +143,27 @@ const conversations = [
       </>
     ),
     image: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTFlMTg2cDl1cGR3dDZzOG1qMDVoc2o1OG02M2RoeHhwcDV5dXN6NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ADD4w6XgqLBJohQdBK/giphy.gif"
+  },
+  {
+    question: "Job hunting theory I didn’t want to believe (but here we are)",
+    answer: (
+      <>
+        After aggressively searching for a job, I’ve come to a slightly uncomfortable conclusion: a <span className="text-pink-600 font-semibold">lot</span> of jobs in the market feel… <em>not real</em>. 👀
+        <br />
+        I even ran a tiny experiment (because of course I did). I applied to a few roles between <strong>11 PM – 1 AM</strong>.
+        <br />
+        Result? <u className="underline decoration-red-500 underline-offset-2">Rejection emails within 2 hours</u>. Some were clearly AI-generated, some politely admitted they were automated, and others just… ghosted.
+        <br />
+        What’s wild is that I <span className="text-emerald-600 font-semibold">tailored my resume</span> exactly to the responsibilities — still rejected. And then came my favorite line:
+        <br />
+        <em>“We’re moving forward with an internal candidate.”</em>
+        <br />
+        Cool. Totally fine. But then I have to ask — <strong>why post the job at all?</strong> Maybe just keep it on the company website and spare us the emotional rollercoaster.
+        <br />
+        Anyway… if you’re job hunting right now and questioning your sanity: you’re not alone 🫶  and we are cooked. 🍳
+      </>
+    ),
+    image: "https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif"
   },
   {
     question:(
@@ -172,6 +193,21 @@ const conversations = [
     question: "My favorite food",
     answer: "Indian, Thai and Japanese! Spice is life. 🌶️🍛",
     image: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnI2eWMwcnp5ZHh3N3Q1ZDJpZ2IyMHBhdHJ6bnJ5aG40M2twMWF0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/J3LpG71GZKNqWun5NS/giphy.gif"
+  },
+  {
+    question: "Life in Nashville (from a former NC resident)",
+    answer: (
+      <>
+        I moved from <strong>North Carolina</strong> to <strong>Tennessee</strong> after living there for <span className="text-emerald-600 font-semibold">8 years</span> and I’m still trying to fully decode this city. 🕵️‍♀️
+        <br />
+        The traffic is <span className="text-pink-600 font-semibold">way heavier</span> than these roads deserve, and sometimes it feels like the city is peacefully saying: <em>“we’re closed, try again tomorrow.”</em> 😅
+        <br />
+        People are calm, polite, and I genuinely love the <u className="underline decoration-red-500 underline-offset-2">neighborhood vibes</u>… but living a bit far from the city makes it harder to make friends.
+        <br />
+        If you’re in <strong>Nashville</strong> and want to meet for <strong>coffee</strong>, I’m happy to do a casual meetup. ☕🙂
+      </>
+    ),
+    image: "https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif"
   },
 ];
 
@@ -207,12 +243,60 @@ function SafeImage({
 
 export default function OffTheRecord() {
   const [currentTime, setCurrentTime] = useState(new Date());
-  const [weather, setWeather] = useState({ temp: 72, condition: "Partly Cloudy" });
+  const [weather, setWeather] = useState({ temp: 72, condition: "Loading…", emoji: "☁️" });
   const { fact, loading: factLoading, error: factError } = useDailyFunFact();
+
+  const weatherCodeToInfo = (code: number) => {
+    if (code === 0) return { condition: "Clear", emoji: "☀️" };
+    if ([1, 2].includes(code)) return { condition: "Mostly clear", emoji: "🌤️" };
+    if (code === 3) return { condition: "Overcast", emoji: "☁️" };
+    if ([45, 48].includes(code)) return { condition: "Fog", emoji: "🌫️" };
+    if ([51, 53, 55, 56, 57].includes(code)) return { condition: "Drizzle", emoji: "🌦️" };
+    if ([61, 63, 65, 66, 67].includes(code)) return { condition: "Rain", emoji: "🌧️" };
+    if ([71, 73, 75, 77].includes(code)) return { condition: "Snow", emoji: "🌨️" };
+    if ([80, 81, 82].includes(code)) return { condition: "Rain showers", emoji: "🌦️" };
+    if ([85, 86].includes(code)) return { condition: "Snow showers", emoji: "🌨️" };
+    if ([95, 96, 99].includes(code)) return { condition: "Thunderstorm", emoji: "⛈️" };
+    return { condition: "Cloudy", emoji: "☁️" };
+  };
 
   useEffect(() => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000);
     return () => clearInterval(timer);
+  }, []);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    const fetchWeather = async () => {
+      try {
+        const url =
+          "https://api.open-meteo.com/v1/forecast?latitude=36.1627&longitude=-86.7816&current=temperature_2m,weather_code&temperature_unit=fahrenheit";
+
+        const res = await fetch(url, { signal: controller.signal, cache: "no-store" });
+        if (!res.ok) throw new Error("Weather request failed");
+
+        const json = await res.json();
+        const temp = Math.round(json?.current?.temperature_2m);
+        const code = Number(json?.current?.weather_code);
+        const info = weatherCodeToInfo(code);
+
+        if (Number.isFinite(temp)) {
+          setWeather({ temp, condition: info.condition, emoji: info.emoji });
+        }
+      } catch (e) {
+        // keep previous temp if any, but show a friendly status
+        setWeather((prev) => ({ ...prev, condition: "Unavailable", emoji: "☁️" }));
+      }
+    };
+
+    fetchWeather();
+    const interval = setInterval(fetchWeather, 10 * 60 * 1000); // every 10 minutes
+
+    return () => {
+      controller.abort();
+      clearInterval(interval);
+    };
   }, []);
 
   const getDayGreeting = () => {
@@ -421,7 +505,7 @@ export default function OffTheRecord() {
                       {weather.condition}
                     </div>
                   </div>
-                  <div className="text-5xl">☁️</div>
+                  <div className="text-5xl">{weather.emoji}</div>
                 </div>
               </div>
 
