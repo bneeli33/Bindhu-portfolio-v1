@@ -13,7 +13,7 @@ const nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Bindhu Neeli",
-  description: "Software engineer at Hiive Health.",
+  description: "Software Engineer",
   icons: {
     icon: "/favicon.ico",
   }
