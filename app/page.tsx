@@ -18,12 +18,12 @@ export default function Home() {
         <Projects />
         <Education />
         <Contact />
-        <Link 
+        {/* <Link 
           href="/off-the-record"
           className="mb-8 px-6 py-3 rounded-full text-white font-semibold bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 animate-[gradient_4s_ease_infinite] hover:scale-110 transition-all shadow-lg hover:shadow-purple-500/50"
         >
           Off the Record →
-        </Link>
+        </Link> */}
       </div>
     </main>
   );
